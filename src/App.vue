@@ -73,8 +73,6 @@ function closeRewardPopup() {
 
 /* ========= SLIDE TRÊN ========= */
 const topSlides = [
-  '/img/slide01.png',
-  '/img/slide02.png',
   '/img/slide04.png',
   '/img/slide03.png',
   '/img/qttamp100.png',
@@ -107,8 +105,6 @@ function stopTop() {
 
 /* ========= SLIDE DƯỚI ========= */
 const footerSlides = [
-  '/img/slide01.png',
-  '/img/slide02.png',
   '/img/slide03.png',
   '/img/qttamp100.png',
 ]
