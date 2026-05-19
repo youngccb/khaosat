@@ -4,6 +4,6 @@ import './assets/main.css'
 import setupDisableDevtools from './utils/disable-devtools'
 createApp(App).mount('#app')
 
-// setupDisableDevtools({
-//     enableDetector: true,
-// })
+setupDisableDevtools({
+    enableDetector: true,
+})
