@@ -2,6 +2,8 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import RewardPopup from './components/RewardPopup.vue'
 import Popup from './components/Popup.vue'
+import { Analytics } from '@vercel/analytics/vue'
+
 
 const products = [
   { id: 32, img: "img/prod/balopreppy.png", name: "Ba lô vải phong cách Preppy", price: "590.000đ" },
@@ -151,8 +153,9 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-
  <div class="lue-skin fixed-nav mobile-page" id="index">
+  <Analytics />
+
     <Popup v-model="showMarketingPopup" />
   <div class="mobile-page">
     <div class="header-saads" style="background:#a80201">
